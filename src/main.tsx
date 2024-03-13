@@ -97,29 +97,7 @@ const RouterComponent = () => {
             }
           />
         </Route> */}
-        {/* <Route
-          path="servers/:serverId/conversations/:conversationId/members/:channelType/:memberId"
-          element={<ChannelLayout />}
-        >
-          <Route
-            index
-            element={
-              <ProtectedRoute>
-                <LeaveServerModal />
-                <UpdatMessageModal />
-                <ManageMemberModal />
-                <ServerJoinModal />
-                <DeleteServerModal />
-                <DeleteChannelModal />
-                <CreateChannelModal />
-                <UpdateServerModal />
-                <CreateChannelModal />
-                <InviteModal />
-                <ConversationPage />
-              </ProtectedRoute>
-            }
-          />
-        </Route> */}
+      
       </Routes>
     </ClerkProvider>
   )
